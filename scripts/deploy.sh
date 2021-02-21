@@ -14,6 +14,8 @@ set -e
 
 cd "${ROOT_DIR}"
 
+echo "run npm command"
+
 npm cache clean --force
 
 # 生成静态文件
