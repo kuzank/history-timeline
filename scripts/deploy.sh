@@ -14,8 +14,10 @@ set -e
 
 cd "${ROOT_DIR}"
 
+npm cache clean --force
+
 # 生成静态文件
-npm install
+npm install --legacy-peer-deps
 npm run build
 
 # 进入生成的文件夹
