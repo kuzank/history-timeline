@@ -1,6 +1,6 @@
 <template>
   <div id="history-timeline-static"
-       v-bind:style="{width: maxWidth + 'px',height: windowHeight + 'px'}">
+       v-bind:style="{width: maxWidth + 'px'}">
 
     <div style="position: fixed;tpo: 0px; left: 10px;">
       <el-button icon="el-icon-setting" circle size="mini" @click="configOnClick"></el-button>

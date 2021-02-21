@@ -104,7 +104,7 @@ export function getConfigVisiableValue() {
   if (window.localStorage.getItem('configVisiable')) {
     value = parseInt(window.localStorage.getItem('configVisiable'))
   } else {
-    value = 0
+    value = 1
   }
   return value;
 }
